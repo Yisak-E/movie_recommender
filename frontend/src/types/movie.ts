@@ -1,4 +1,4 @@
-type RawMovie = {
+type Movie = {
   Title: string;
   Year: string;
   Rated: string;
@@ -7,7 +7,7 @@ type RawMovie = {
   Genre: string;
   Director: string;
   Writer: string;
-  Actors: string;
+  actors: string[];
   Plot: string;
   Language: string;
   Country: string;
@@ -27,5 +27,7 @@ type RawMovie = {
 };
 
 type MoviesFile = {
-  movies: RawMovie[];
+  movies: Movie[];
 };
+
+export { type Movie, type MoviesFile };
