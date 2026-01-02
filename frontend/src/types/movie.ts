@@ -1,7 +1,7 @@
 type Movie = {
   title: string;
   directors:string[];
-  Year: string;
+  year: string;
   Rated: string;
   released: string;
   runtimeMinutes: string | number | null;

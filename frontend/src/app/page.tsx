@@ -18,7 +18,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <main className=" flex min-h-screen flex-col items-center  p-24">
+    <main className=" flex min-h-screen flex-col items-center  p-24 ">
     <Blured text={"Mirada Movie Recommender"} className={"text-5xl font-serif italic"}/>
         <motion.div
             initial={{
@@ -35,7 +35,7 @@ useEffect(() => {
                 duration: 5,
 
         }}
-            className={"h-120  px-6 max-w-full my-8 flex items-center justify-center gap-3 overflow-hidden"}>
+            className={"h-120  px-6 max-w-full my-8 flex items-center justify-center gap-3 overflow-hidden rounded-3xl"}>
             <motion.img
                 initial={{
                     scale: 0.5,
