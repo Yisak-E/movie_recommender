@@ -1,29 +1,31 @@
 type Movie = {
-  Title: string;
+  title: string;
+  directors:string[];
   Year: string;
   Rated: string;
-  Released: string;
-  Runtime: string;
-  Genre: string;
-  Director: string;
-  Writer: string;
+  released: string;
+  runtimeMinutes: string | number | null;
+  genres: string[];
+  writers: string[];
   actors: string[];
-  Plot: string;
-  Language: string;
-  Country: string;
-  Awards: string;
-  Poster: string;
+  plot: string;
+  languages: string[];
+  countries: string[];
+  awards: string;
+  poster: string;
   Ratings: { Source: string; Value: string }[];
-  Metascore: string;
+  metascore: string | number;
   imdbRating: string;
   imdbVotes: string;
   imdbID: string;
-  Type: string;
+  rated:number| string;
+  type: string;
   DVD?: string;
   BoxOffice?: string;
   Production?: string;
   Website?: string;
   Response: string;
+  createdAt: Date| string| number;
 };
 
 type MoviesFile = {

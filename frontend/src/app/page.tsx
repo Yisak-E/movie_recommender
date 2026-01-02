@@ -31,7 +31,10 @@ useEffect(() => {
                 opacity: 0.5,
                 scaleX:1
             }}
-            transition={{ duration: 5, yoyo: Infinity }}
+            transition={{
+                duration: 5,
+
+        }}
             className={"h-120  px-6 max-w-full my-8 flex items-center justify-center gap-3 overflow-hidden"}>
             <motion.img
                 initial={{

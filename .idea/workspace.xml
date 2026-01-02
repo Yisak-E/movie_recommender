@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa44f1b3-d0bc-4101-bf8a-fcd9b8d9e574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/recommender/RecommenderClient.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataconnect/dataconnect.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataconnect/example/connector.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataconnect/schema/schema.gql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firestore.indexes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firestore.rules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/firebase/serviceAccountKey.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/firebase/serviceAccountKey.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/animations/GradualSpacing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/animations/GradualSpacing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/recommender/RecommederClient.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/recommender/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/recommender/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/recommender/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/recommender/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/type/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types/movie.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/tsconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/types/movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types/movie.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,12 +153,24 @@
       <updated>1756028910918</updated>
       <workItem from="1756028911985" duration="539000" />
       <workItem from="1756029678502" duration="2850000" />
-      <workItem from="1767329176036" duration="3040000" />
+      <workItem from="1767329176036" duration="12440000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/app/recommender/RecommenderClient.tsx</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Movie_recommend$Scheduler_bot.coverage" NAME="Scheduler_bot Coverage Results" MODIFIED="1756039589187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />

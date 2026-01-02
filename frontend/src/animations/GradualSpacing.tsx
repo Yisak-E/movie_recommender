@@ -4,7 +4,7 @@ import {AnimatePresence, motion, useInView} from 'framer-motion';
 import * as React from 'react';
 
 
-export default function GradualSpacing({ text = 'Gradual spacing' }: { text: string }) {
+export default function GradualSpacing({ text = 'Gradual spacing', className }: { text: string, className?: string }) {
     const ref = React.useRef(null);
     const isInView = useInView(ref, { once: true });
 
@@ -18,7 +18,7 @@ export default function GradualSpacing({ text = 'Gradual spacing' }: { text: str
                     initial={{ opacity: 0, y: 20 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ delay: index * 0.1, duration: 0.3 }}
-                    className={"text-2xl font-serif"}
+                    className={className?className:"text-2xl font-serif"}
                 >
                     {char}
                 </motion.p>
